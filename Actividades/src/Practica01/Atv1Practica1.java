@@ -5,6 +5,7 @@ Genere enteros aleatorios hasta obtener el número 11. Para cada número muestre
 el resultado de multiplicarlo por 2 (accediendo al vector).
  */
 
+package tema1;
 
 import PaqueteLectura.GeneradorAleatorio;
 

@@ -4,7 +4,9 @@ básquet y las almacene en un vector. Luego informe:
 - la altura promedio
 - la cantidad de jugadores con altura por encima del promedio
  */
- 
+
+ package tema1;
+
 import PaqueteLectura.GeneradorAleatorio;
 import PaqueteLectura.Lector;
   

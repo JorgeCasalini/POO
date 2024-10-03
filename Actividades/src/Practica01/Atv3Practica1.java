@@ -11,6 +11,8 @@ encontrarse indique su ubicación (fila y columna) en caso contrario
 imprima “No se encontró el elemento”.
  */
 
+package tema1;
+
 import PaqueteLectura.GeneradorAleatorio;
 import PaqueteLectura.Lector;
 
