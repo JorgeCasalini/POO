@@ -15,7 +15,7 @@ Realice un programa que cree un objeto persona con datos leídos desde teclado. 
 muestre en consola la representación de ese objeto en formato String.
  */
 
-package tema2;
+package practica02;
 import PaqueteLectura.*;
 
 public class Ejercicio1 {
