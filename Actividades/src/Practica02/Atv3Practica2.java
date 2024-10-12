@@ -10,7 +10,7 @@ b) Informar para cada día y turno asignado, el nombre de la persona a entrevist
 NOTA: utilizar la clase Persona. Pensar en la estructura de datos a utilizar. Para comparar
 Strings use el método equals. */
 
-package tema2;
+package practica2;
 import PaqueteLectura.*;
 
 public class Ejercicio3 {
