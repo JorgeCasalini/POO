@@ -18,5 +18,58 @@ public class Partido {
     }
 
     
-   
+    public String getLocal() {
+        return local;
+    }
+
+    public String getVisitante() {
+        return visitante;
+    }
+
+    public int getGolesLocal() {
+        return golesLocal;
+    }
+
+    public int getGolesVisitante() {
+        return golesVisitante;
+    }
+
+    public void setLocal(String unEquipo) {
+        local = unEquipo;
+    }
+
+    public void setVisitante(String unEquipo) {
+        visitante = unEquipo;
+    }
+
+    public void setGolesLocal(int unosGoles) {
+        golesLocal = unosGoles;
+    }
+
+    public void setGolesVisitante(int unosGoles) {
+        golesVisitante = unosGoles;
+    }
+    
+    public boolean hayGanador(){
+         return (golesLocal!=golesVisitante); 
+    }
+    
+    public boolean hayEmpate(){
+         return ((golesLocal==golesVisitante));
+    }
+    
+    public String getGanador(){
+         String ganador=new String();
+         if (golesLocal>golesVisitante){
+             ganador = local;
+         }
+         else {
+             if (golesLocal<golesVisitante){
+                 ganador = visitante;
+             }
+         }
+         return ganador;
+                 
+    }	    
+    
 }
