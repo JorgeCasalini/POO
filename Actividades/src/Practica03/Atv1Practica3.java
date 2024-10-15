@@ -14,7 +14,7 @@ package practica03;
 
 import PaqueteLectura.*;
 
-public class Ejercicio1 {
+public class Atv1Practica3 {
     public static void main(String[] args) {
         Triangulo triangulo1 = new Triangulo(Lector.leerDouble(), Lector.leerDouble(), Lector.leerDouble(), Lector.leerString(), Lector.leerString());
         System.out.println(triangulo1.calcularPerimetro());
