@@ -8,7 +8,7 @@ Una vez finalizada la inscripción:
 b) Informar para cada día: la cantidad de inscriptos al casting ese día y el nombre de la
 persona a entrevistar en cada turno asignado. */
 
-package practica2;
+package practica02;
 import PaqueteLectura.*;
 
 public class Ejercicio4 {

@@ -4,7 +4,7 @@ obtener edad 0. Luego de almacenar la información:
  - Informe la cantidad de personas mayores de 65 años.
  - Muestre la representación de la persona con menor DNI. */
 
-package practica2;
+package practica02;
 import PaqueteLectura.*;
 
 public class Ejercicio2 {

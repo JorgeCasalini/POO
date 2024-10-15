@@ -25,7 +25,7 @@ nombre de visitante “ZZZ” o alcanzar los 20 partidos. Luego de la carga:
 - Calcular e informar la cantidad de partidos que ganó River.
 - Calcular e informar el total de goles que realizó Boca jugando de local. */
 
-package practica2;
+package practica02;
 import PaqueteLectura.*;
 
 public class Ejercicio5 {
