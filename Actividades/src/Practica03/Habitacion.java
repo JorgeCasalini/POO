@@ -5,12 +5,12 @@ import PaqueteLectura.*;
 public class Habitacion {
     private double costo;
     private boolean ocupada;    
-    Cliente cliente;
+    Persona persona;
     
     public Habitacion() {
         costo = GeneradorAleatorio.generarDouble(6001)+2000;
         ocupada = false;
-        cliente = null;
+        persona = null;
     }
 
     public double getCosto() {
@@ -33,12 +33,12 @@ public class Habitacion {
         this.ocupada = true;
     }
     
-    public Cliente getCliente() {
-        return cliente;
+    public Persona getPersona() {
+        return persona;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
+    public void setPersona(Persona persona) {
+        this.persona = persona;
     }
     
     public void aumentarPrecio(double n) {
@@ -49,7 +49,7 @@ public class Habitacion {
     public String toString(){
         String aux = "Costo="+costo+" Estado="+ ocupada;
         if(ocupada) {
-            aux+= cliente.toString();
+            aux+= persona.toString();
         }
         return aux;
     }

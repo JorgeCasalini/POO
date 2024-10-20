@@ -30,8 +30,8 @@ public class Ejercicio4 {
         int i;
         int numHab = 1;
         for (i=0; i < 8; i++) {
-            Persona c = new Persona(GeneradorAleatorio.generarString(5), GeneradorAleatorio.generarInt(50)+100, GeneradorAleatorio.generarInt(100));
-            hotel1.agregarPersona(c, numHab);
+            Persona p = new Persona(GeneradorAleatorio.generarString(5), GeneradorAleatorio.generarInt(50)+100, GeneradorAleatorio.generarInt(100));
+            hotel1.agregarPersona(p, numHab);
             numHab += 2;
         }
         System.out.println(hotel1.toString());
