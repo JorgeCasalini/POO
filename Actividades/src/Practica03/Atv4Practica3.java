@@ -22,7 +22,7 @@ package practica03;
 import PaqueteLectura.*;
 
 
-public class Ejercicio4 {
+public class Atv4Practica3 {
 
     public static void main(String[] args) {
         

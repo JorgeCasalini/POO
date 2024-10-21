@@ -11,7 +11,7 @@ package practica03;
 
 import PaqueteLectura.*;
 
-public class Ejercicio3 {
+public class Atv3Practica3 {
     
     public static void main(String[] args) {
         Estanteria estante1 = new Estanteria();

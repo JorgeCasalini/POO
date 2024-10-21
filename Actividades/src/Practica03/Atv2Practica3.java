@@ -12,7 +12,7 @@ package tema3;
 
 import PaqueteLectura.*;
 
-public class Ejercicio2 {
+public class Atv2Practica3 {
     
     public static void main(String[] args) {
         
