@@ -23,7 +23,7 @@ return guardadas;
 B- Realice un programa que instancie el visor, guarde dos cuadrados y un rectángulo en el
 visor y por último haga que el visor muestre sus figuras almacenadas. */
 
-package tema4v2;
+package practica04;
 
 public class Atv4Practica4 {
 	public static void main(String[] args) {
